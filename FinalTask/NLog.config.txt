@@ -1,0 +1,9 @@
+﻿<configuration>
+  <targets>
+    <target name="debugConsole" type="Console" layout="${date:format=HH:mm:ss} ${message}" />
+     <target name="testFile" type="File" fileName="${basedir}/Tests/TestLog.txt" layout="${date:format=HH:mm:ss} ${message}" />
+  </targets>
+  <rules>
+    <logger name="*" minlevel="Trace" writeTo="debugConsole,testFile" />
+  </rules>
+</configuration>
