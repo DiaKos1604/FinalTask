@@ -1,4 +1,5 @@
 Task description
+
 Launch URL: https://www.saucedemo.com/
 
 UC-1 Test Login form with empty credentials:
@@ -22,12 +23,21 @@ Provide parallel execution, add logging for tests and use Data Provider to param
 Please, add task description as README.md into your solution!
 
 To perform the task use the various of additional options:
+
 Test Automation tool: Selenium WebDriver;
+
 Project Builder: Maven;
+
 Browsers: 1) Edge; 2) Firefox;
+
 Locators: XPath
+
 Test Runner: MSTest ;
+
 [Optional] Patterns: 1)Builder; 2)Adapter; 3)Bridge;
+
 Test automation approach: BDD;
+
 Assertions: Fluent Assertion;
+
 [Optional] Loggers: NLog.
